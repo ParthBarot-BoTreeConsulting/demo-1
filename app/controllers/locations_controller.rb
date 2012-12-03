@@ -22,12 +22,12 @@ class LocationsController < ApplicationController
 
     (latitude_range[0]..latitude_range[1]).each do |latitude|
       (longitude_range[0]..longitude_range[1]).each do |longitude|
-
+        sleep(500)
         address = get_address(latitude, longitude)
         if address.present?
            @addresses << address
         end
-      break
+        break
       end
     end
 
