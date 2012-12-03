@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Demo1::Application.load_tasks
+DistanceCalculator::Application.load_tasks

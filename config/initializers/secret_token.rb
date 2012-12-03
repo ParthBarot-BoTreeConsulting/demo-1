@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Demo1::Application.config.secret_token = '2d27ac61909b5078c30372158b60c43b50d46557a019d35f5b2379aad6de5b00b112be8845fc39c016f1fb1d4cd84b434bd0783b0b46586c7491df788c85d561'
+DistanceCalculator::Application.config.secret_token = '9f21ae2f47ee2c762c254d1aab1b7505d335c1001a077d3b4a6e5e2c2d455c86abd0803b71227c676ae9b7d11f4468a3d9136bd4c57e4731d4a6bcc3bb900e4f'

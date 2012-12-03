@@ -1,0 +1,30 @@
+<div class="span12">
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th><strong>Locations</strong></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% if @addresses.present? %>
+        <% @addresses.each do |address| %>
+            <tr>
+              <td>
+                <%= address %>
+              </td>
+            </tr>
+        <% end %>
+    <% else %>
+        <tr>
+          <td>
+            No Addresses in the given range.
+          </td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+
+
