@@ -122,6 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  geokit
   geokit-rails3
   jquery-rails
   less-rails
