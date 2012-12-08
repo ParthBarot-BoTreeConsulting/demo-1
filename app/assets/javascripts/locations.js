@@ -23,6 +23,7 @@ $(document).ready(function(){
                 range: range
             },
             beforeSend: function(){
+                $('#search_results').html("")
                 $('#loader').show();
             },
             complete: function(){
